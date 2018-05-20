@@ -1,0 +1,29 @@
+/* Universal Styles */
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Header */
+header {
+  background-color: black;
+  display: flex;
+  width: 960px;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logo span {
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+/* Bikes Section */
