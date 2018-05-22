@@ -10,7 +10,7 @@
 
   <!-- Header -->
   <header>
-    <div class="logo">
+    <div class="container">
       <img src="./resources/logo.png">
       <span>SECRET AGENT SUPPLY INC.</span>
     </div>
@@ -18,54 +18,70 @@
 
 <!--Bikes Section -->
   <div class="bikes">
-    <img src="./resources/moto.jpeg">
-    <div class="bikes-txt">
-      <span class="line1">NEW ARRIVAL</span>
-      <span class="line2">SPORT BIKES AND MOTORCYCLES</span>
+    <div class="container">
+      <div class="bikes-txt">
+        <!--<img src="./resources/moto.jpeg">-->
+        <span class="line1">NEW ARRIVAL</span>
+        <span class="line2">SPORT BIKES AND MOTORCYCLES</span>
+      </div>
     </div>
   </div>
 
 <!-- Navigation -->
-  <div class="nav">
-    <a href="#">Eyewear</a>
-    <a href="#">Apparel</a>
-    <a href="#">Gadgets</a>
-    <a href="#">Vehicles</a>
-    <a href="#">Glasses</a>
-    <a href="#">Contact</a>
-  </div>
+<nav>
+  <ul class="container">
+    <li>Eyewear</li>
+    <li>Apparel</li>
+    <li>Gadgets</li>
+    <li>Vehicles</li>
+    <li>Glasses</li>
+    <li>Contact</li>
+  </ul>
+</nav>
 
 <!-- Products -->
-  <div class="products-container">
+<div class="container">
+  <div class="products-parent">
     <div class="products-child">
-      <img src="./resources/pen.png" alt="Exploding Pen">
-      <span>Exploding Pen</span>
+      <div class="products-img">
+        <img src="./resources/pen.png" alt="Exploding Pen">
+      </div>
+      <span class="description">Exploding Pen</span>
     </div>
     <div class="products-child">
-      <img src="./resources/watch.png" alt="Cellular Watch">
-      <span>Cellular Watch</span>
+      <div class="products-img">
+        <img src="./resources/watch.png" alt="Cellular Watch">
+      </div>
+      <span class="description">Cellular Watch</span>
     </div>
     <div class="products-child">
-      <img src="./resources/glasses.png" alt="Thermal Glasses">
-      <span>Thermal Glasses</span>
+      <div class="products-img">
+        <img src="./resources/glasses.png" alt="Thermal Glasses">
+      </div>
+      <span class="description">Thermal Glasses</span>
     </div>
   </div>
+</div>
 
 <!-- Location and Hours Section -->
-  <div class="info">
-    <div class="location">
-      <span class="location1">Location</span>
-      <span class="location2">-47.346436, 84.32354</span>
-    </div>
-    <div class="hours">
-      <span class="hours1">Hours</span>
-      <span class="hours2">0800 - 1800</span>
+  <div class="container">
+    <div class="business-info">
+      <div class="info">
+        <span class="title">Location</span>
+        <span>-47.346436, 84.32354</span>
+      </div>
+      <div class="info">
+        <span class="title">Hours</span>
+        <span>0800 - 1800</span>
+      </div>
     </div>
   </div>
 
 <!-- Footer -->
   <footer>
-    <span>Copyright Secret Agent Supply Inc.</span>
+    <div class="container">
+      <span>Copyright Secret Agent Supply Inc.</span>
+    </div>
   </footer>
 
   </body>
